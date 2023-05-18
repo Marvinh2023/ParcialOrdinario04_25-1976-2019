@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/mensajes"
+            android:icon="@drawable/baseline_people_24"
+            android:title="Clientes"
+            />
+        <item android:id="@+id/encontrar"
+            android:icon="@drawable/baseline_directions_car_24"
+            android:title="Vehiculos"
+            />
+        <item android:id="@+id/comentario"
+            android:icon="@drawable/baseline_add_comment_24"
+            android:title="Comentarios"
+            />
+
+    </group>
+
+    <item android:title="Redes sociales">
+        <menu>
+            <item android:id="@+id/enviar"
+                android:icon="@drawable/baseline_remove_red_eye_24"
+                android:title="Ver clientes"
+                />
+
+            <item android:id="@+id/compartir"
+                android:icon="@drawable/baseline_share_24"
+                android:title="Compartir"
+                />
+        </menu>
+    </item>
+</menu>
